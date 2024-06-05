@@ -1,0 +1,39 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .success-animation {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    animation: slideIn 0.5s forwards;
+  }
+  
+  .checkmark {
+    width: 30px;
+    height: 30px;
+    fill: white;
+    margin-right: 10px;
+  }
+  
+  .success-message {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
